@@ -11,7 +11,7 @@ nltk.download('words')
 nltk.download('stopwords')
 nltk.download('wordnet')
 import pandas as pd
-import mlflow
+#import mlflow
 from keras.preprocessing.text import Tokenizer
 from keras.utils import pad_sequences
 stop_words=set(stopwords.words('english'))
