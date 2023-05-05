@@ -9,6 +9,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 nltk.download('words')
 nltk.download('stopwords')
+nltk.download('wordnet')
 import pandas as pd
 import mlflow
 from keras.preprocessing.text import Tokenizer
