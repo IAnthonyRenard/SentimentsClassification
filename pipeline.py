@@ -7,7 +7,7 @@ from nltk.corpus import RegexpTokenizer
 from nltk.corpus import words
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-nltk.download('punkt')
+nltk.download('stopwords')
 import pandas as pd
 import mlflow
 from keras.preprocessing.text import Tokenizer
