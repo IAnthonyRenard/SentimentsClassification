@@ -7,7 +7,7 @@ from nltk.corpus import RegexpTokenizer
 from nltk.corpus import words
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-nltk.download()
+nltk.download('words')
 nltk.download('stopwords')
 import pandas as pd
 import mlflow
