@@ -6,6 +6,5 @@ pydantic
 requests
 nltk
 gensim
-tensorflow
 flask
 mlflow
