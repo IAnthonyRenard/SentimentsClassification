@@ -1,0 +1,46 @@
+<!-- templates/login.html-->
+ 
+<html>
+ 
+<head>
+    <title>Handling of http get and post request</title>
+    <style>
+        div {
+            width: 400px;
+            border: 1px solid green;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <div>
+<!-- url_for will route the forms request to
+appropriate function that user made to handle it.-->
+<!--we will Retrieve submitted values of inputs
+on the backend side using 'name' field of form.-->
+        <h1>Envoi message avec GET</h1>
+        <form method="GET"
+              action="{{ url_for('predict_get') }}">
+            <input type="text"
+                   name="message"
+                   placeholder="Votre message">
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+ 
+    <div>
+        <h1>Envoi message avec POST</h1>
+        <form method="POST"
+              action="{{ url_for('predict_post') }}">
+            <input type="text"
+                   name="message"
+                   placeholder="Votre message">
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</body>
+ 
+</html>
