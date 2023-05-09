@@ -1,1 +1,4 @@
-web: python api_test1.py
+web: gunicorn fbapp:app
+init: FLASK_APP=api_test1.py flask init_db
+
+#web: python api_test1.py
