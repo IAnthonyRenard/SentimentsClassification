@@ -38,4 +38,5 @@ jobs:
     - name: Test with pytest
       run: |
         #***pytest
-        python api_test2.py
+        #python api_test2.py
+	  gunicorn api_test2:app
