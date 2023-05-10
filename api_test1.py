@@ -23,4 +23,7 @@ def test_api(url):
     
     
 #test_api("http://127.0.0.1:3001/predict_post")
-test_api("https://sentimentsclassification.herokuapp.com/predict_post")
+
+test_api("http://0.0.0.0/predict_post")
+
+#test_api("https://sentimentsclassification.herokuapp.com/predict_post")
