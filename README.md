@@ -47,10 +47,10 @@ Note : à chaque PUSH sur GitHub, le serveur en ligne est automatiquement mis à
 
 # Découpage des livrables disponibles sous GitHub : https://github.com/IAnthonyRenard/SentimentsClassification
 
--Renard_Anthony_1_modele_042023 : contient les fichiers "API" pour interroger le modèle sur le serveur Cloud Heroku<br> 
--Renard_Anthony_2_scripts_042023 : contient toutes les opérations sur les entrées et les algorithmes de création des modèles cités précédemment<br> 
--Renard_Anthony_3_article_de_blog_042023 : contient une présentation et une comparaison des trois approches (“Modèle sur mesure simple” et “Modèle sur mesure avancé”, “Modèle avancé BERT”) ainsi que l'explication de la démarche orientée MLOps mise en œuvre<br> 
--Renard_Anthony_4_presentation_042023 : présentation commenté visuelle du projet<br>  
+-Renard_Anthony_1_modele_042023 : contient les fichiers "API" pour interroger le modèle sur le serveur Cloud Heroku<br/> 
+-Renard_Anthony_2_scripts_042023 : contient toutes les opérations sur les entrées et les algorithmes de création des modèles cités précédemment<br/> 
+-Renard_Anthony_3_article_de_blog_042023 : contient une présentation et une comparaison des trois approches (“Modèle sur mesure simple” et “Modèle sur mesure avancé”, “Modèle avancé BERT”) ainsi que l'explication de la démarche orientée MLOps mise en œuvre<br/> 
+-Renard_Anthony_4_presentation_042023 : présentation commenté visuelle du projet<br/>  
 -tests/ : contient tous les fichiers permettant de lancer les tests PyTest <br> 
 
 # FIN
