@@ -41,4 +41,6 @@ def predict_post():
         
  
 if __name__ == '__main__':
-    app.run(https://sentimentsclassification.herokuapp.com)#port=3001)
+    app.run(https://sentimentsclassification.herokuapp.com)
+    
+    #port=3001)
