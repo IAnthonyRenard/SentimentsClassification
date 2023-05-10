@@ -19,14 +19,14 @@ def view_form():
     return render_template('message.html')
  
 #utilisation de la méthode GET
-@app.route('/predict_get', methods=['GET'])
+'''@app.route('/predict_get', methods=['GET'])
 def predict_get():
     if request.method == 'GET':        
         text = request.args['message']
         text_treat=pipeline.process_text(text,rejoin=False,lemm_or_stemm="lem",min_len_words = 3,eng_words=eng_words_lem)
         polarity = pipeline.prediction(text_treat)
     
-    return pipeline.decode(polarity)
+    return pipeline.decode(polarity)'''
  
 #utilisation de la méthode POST
 @app.route('/predict_post', methods=['POST'])
