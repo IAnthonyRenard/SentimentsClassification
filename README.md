@@ -34,7 +34,7 @@ Utilisation de Pytest pour la mise en place de test unitaires sur la partie EDA 
 Enregistrement des modèles (artifacts) et de leurs performances sur MLFLOW.<br/> 
 
 # API
-Création d'une API FLASK pour l'interrogation du meilleur modèle sur un serveur externe (Heroku).<br/> 
+Création d'une API FLASK pour l'interrogation du meilleur modèle sur un serveur Cloud externe (Heroku).<br/> 
 
 # Déploiement 
 
@@ -49,7 +49,7 @@ Note : à chaque PUSH sur GitHub, le serveur en ligne est automatiquement mis à
 
 Les différents fichiers représentant le travail effectué sont disponibles sous :  https://github.com/IAnthonyRenard/SentimentsClassification<br/> 
 Voici une présentation des fichiers/dossiers :<br/> .
--Renard_Anthony_1_modele_042023 : contient les fichiers "API" pour interroger le modèle sur le serveur Cloud Heroku<br/> 
+-api_test1.py, app.py, pipeline.py et le dossier "templates" sont les fichiers "API" permettant d'interroger le modèle sur le serveur Cloud Heroku<br/> 
 -Renard_Anthony_2_scripts_042023 : contient toutes les opérations sur les entrées et les algorithmes de création des modèles cités précédemment<br/> 
 -Renard_Anthony_3_article_de_blog_042023 : contient une présentation et une comparaison des trois approches (“Modèle sur mesure simple” et “Modèle sur mesure avancé”, “Modèle avancé BERT”) ainsi que l'explication de la démarche orientée MLOps mise en œuvre<br/> 
 -Renard_Anthony_4_presentation_042023 : présentation commenté visuelle du projet<br/>  
