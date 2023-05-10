@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, session
-import pipeline
+'''import pipeline
 from nltk.corpus import words
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
@@ -8,7 +8,7 @@ from nltk.stem import WordNetLemmatizer
 stop_words=set(stopwords.words('english'))
 eng_words=[i.lower() for i in words.words()]
 lm=WordNetLemmatizer()
-eng_words_lem=[lm.lemmatize(i) for i in eng_words]
+eng_words_lem=[lm.lemmatize(i) for i in eng_words]'''
  
 app = Flask(__name__)
  
