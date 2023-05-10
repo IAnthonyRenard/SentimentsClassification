@@ -45,6 +45,6 @@ def predict_post():
         
  
 if __name__ == '__main__':
-    app.run(port=7318)#
+    app.run(port=7318)
 
     
