@@ -11,18 +11,18 @@ lm=WordNetLemmatizer()
 eng_words_lem=[lm.lemmatize(i) for i in eng_words]
  
 app = Flask(__name__)
- 
+''' 
 @app.route("/")
 def hello():
     return "Le serveur flask fonctionne"
+'''
 
-
-'''#Affichage de IHM via message.html
+#Affichage de IHM via message.html
 @app.route('/')
 def view_form():
-    return render_template('message.html')'''
+    return render_template('message.html')
  
-'''#utilisation de la méthode GET
+#utilisation de la méthode GET
 @app.route('/predict_get', methods=['GET'])
 def predict_get():
     if request.method == 'GET':        
@@ -30,9 +30,9 @@ def predict_get():
         text_treat=pipeline.process_text(text,rejoin=False,lemm_or_stemm="lem",min_len_words = 3,eng_words=eng_words_lem)
         polarity = pipeline.prediction(text_treat)
     
-    return pipeline.decode(polarity)'''
+    return pipeline.decode(polarity)
  
-'''#utilisation de la méthode POST
+#utilisation de la méthode POST
 @app.route('/predict_post', methods=['POST'])
 def predict_post():
     if request.method == 'POST':
@@ -41,7 +41,7 @@ def predict_post():
         text_treat=pipeline.process_text(text,rejoin=False,lemm_or_stemm="lem",min_len_words = 3,eng_words=eng_words_lem)
         polarity = pipeline.prediction(text_treat)
     
-    return pipeline.decode(polarity)'''
+    return pipeline.decode(polarity)
         
  
 if __name__ == '__main__':
