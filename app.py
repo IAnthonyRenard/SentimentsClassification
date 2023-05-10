@@ -3,6 +3,7 @@ import pipeline
 from nltk.corpus import words
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+from gevent.pywsgi import WSGIServer
 
 
 stop_words=set(stopwords.words('english'))
@@ -42,5 +43,6 @@ def predict_post():
  
 if __name__ == '__main__':
     app.run(threaded=True, port=3001)
+    http_server = WSGIServer(('', 5000), app)
+    http_server.serve_forever()
     
-    #port=3001)
