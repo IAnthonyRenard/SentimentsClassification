@@ -38,4 +38,4 @@ jobs:
     - name: run API
       run: |
         #***pytest
-        python app.py
+        python api_test2.py
