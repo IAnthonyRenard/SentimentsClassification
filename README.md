@@ -54,4 +54,5 @@ Voici une présentation des fichiers/dossiers :<br/> .
 -Renard_Anthony_2_scripts_042023 : contient toutes les opérations sur les entrées et les algorithmes de création des modèles cités précédemment<br/> 
 -tests/ : contient tous les fichiers permettant de lancer les tests PyTest (11 tests généraux) <br> 
 
+
 # FIN
