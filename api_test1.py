@@ -27,5 +27,6 @@ def reponse_test_api(url):
 #test_api("https://sentimentsclassification.herokuapp.com/predict_post")# Tester une requête avec le message enregistré ci-dessus
 #test_api("https://sentimentsclassification.herokuapp.com") # Tester une requête avec le message enregistré ci-dessus
 
+
 def test_modele_post():
     assert reponse_test_api("https://sentimentsclassification.herokuapp.com/predict_post")=="Positif" 
