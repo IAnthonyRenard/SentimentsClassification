@@ -20,7 +20,7 @@ Pour ces modèles, 2 types de plongements de mots (embeddings) ont été utilis�
 Simple Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM) et Gated Recurrent Unit (GRU) sont les 3 modèles qui ont été choisis pour ce travail.<br/> 
 Pour ces modèles, 4 types de plongements de mots (embeddings) ont été utilisés : Word2Vec, GloVe, FastText, et USE.<br/> 
 
-La différences entre tous ces modèles et les embeddings associés sont disponibles sous la page Web suivante (disponible sous GitHub) : 
+Les différences entre tous ces modèles et les embeddings associés sont disponibles sous la page Web suivante (disponible sous GitHub) : 
 Renard_Anthony_3_article_de_blog_042023
 
 ## 1 modèle de BERT
@@ -38,7 +38,7 @@ Création d'une API FLASK pour l'interrogation du meilleur modèle sur un serveu
 
 # Déploiement 
 
-Step 1: versionning sur GitHub<br/> 
+Step 1 : versionning sur GitHub<br/> 
 Step 2 : Mise en place de GitHubActions pour l'interrogation du modèle via l'API<br/> 
 Step 3 : déploiement du modèle sur le serveur externe (Heroku)<br/> 
 
@@ -54,6 +54,6 @@ Voici une présentation des fichiers/dossiers :<br/> .
 -Renard_Anthony_3_article_de_blog_042023 : contient une présentation et une comparaison des trois approches (“Modèle sur mesure simple” et “Modèle sur mesure avancé”, “Modèle avancé BERT”) ainsi que l'explication de la démarche orientée MLOps mise en œuvre<br/> 
 -Renard_Anthony_4_presentation_042023 : présentation commenté visuelle du projet<br/>  
 -tests/ : contient tous les fichiers permettant de lancer les tests PyTest <br> 
--requirements.txt : contient toutes les versions des biblothèques Python à utiliser.
+-requirements.txt : contient toutes les versions des bibliothèques Python à utiliser.
 
 # FIN
