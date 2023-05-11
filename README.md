@@ -49,11 +49,12 @@ Note : à chaque PUSH sur GitHub, le serveur en ligne est automatiquement mis à
 
 Les différents fichiers représentant le travail effectué sont disponibles sous :  https://github.com/IAnthonyRenard/SentimentsClassification<br/> 
 Voici une présentation des fichiers/dossiers :<br/> .
--api_test1.py, app.py, pipeline.py et le dossier "templates" sont les fichiers "API" permettant d'interroger le modèle sur le serveur Cloud Heroku<br/> 
+-api_test1.py (PyTest du modèle), app.py (API Flask), pipeline.py (utilisation du modèle), Procfil(déclaration de guicorn + la cible) et le dossier "templates" sont les livrables "API" permettant d'interroger le modèle sur le serveur Cloud Heroku<br/> 
+-requirements.txt : contient toutes les versions des bibliothèques Python à utiliser (fichier utilisé par le CLOUD Heroku)
 -Renard_Anthony_2_scripts_042023 : contient toutes les opérations sur les entrées et les algorithmes de création des modèles cités précédemment<br/> 
 -Renard_Anthony_3_article_de_blog_042023 : contient une présentation et une comparaison des trois approches (“Modèle sur mesure simple” et “Modèle sur mesure avancé”, “Modèle avancé BERT”) ainsi que l'explication de la démarche orientée MLOps mise en œuvre<br/> 
 -Renard_Anthony_4_presentation_042023 : présentation commenté visuelle du projet<br/>  
--tests/ : contient tous les fichiers permettant de lancer les tests PyTest <br> 
--requirements.txt : contient toutes les versions des bibliothèques Python à utiliser.
+-tests/ : contient tous les fichiers permettant de lancer les tests PyTest (11 tests généraux) <br> 
+
 
 # FIN
