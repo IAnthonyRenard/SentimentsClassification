@@ -1,10 +1,11 @@
 import json
 import requests
+import pytest
 
-def test_api(url):
+def reponse_test_api(url):
     # Données à prédire
     data = {
-        'message': 'the film is good'
+        'message': 'The film is good'
     }
 
     # Convertir les données en JSON
@@ -20,8 +21,12 @@ def test_api(url):
     print(response.text)
     print(response.status_code)
     
+    return response.text
     
-    
-#test_api("http://127.0.0.1:3001/predict_post")
-#test_api("https://sentimentsclassification.herokuapp.com/predict_post")#
-test_api("https://sentimentsclassification.herokuapp.com")
+#test_api("http://127.0.0.1:3001/predict_post") #Test en local
+#test_api("https://sentimentsclassification.herokuapp.com/predict_post")# Tester une requête avec le message enregistré ci-dessus
+#test_api("https://sentimentsclassification.herokuapp.com") # Tester une requête avec le message enregistré ci-dessus
+
+
+def test_modele_post():
+    assert reponse_test_api("https://sentimentsclassification.herokuapp.com/predict_post")=="Positif" 
